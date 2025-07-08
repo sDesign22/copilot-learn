@@ -1,0 +1,38 @@
+{
+  "html-css-basics": [
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Cascading Style Sheets", "Creative Style Set", "Computer Styled Syntax"],
+      "answer": 0
+    },
+    {
+      "question": "Which tag creates a heading?",
+      "options": ["<p>", "<h1>", "<div>"],
+      "answer": 1
+    }
+  ],
+  "js-functions": [
+    {
+      "question": "What keyword defines a function?",
+      "options": ["return", "function", "def"],
+      "answer": 1
+    },
+    {
+      "question": "What does greet(\"Sam\") return if greet is function greet(name) { return \"Hello \" + name; }",
+      "options": ["Hello", "name", "Hello Sam"],
+      "answer": 2
+    }
+  ],
+  "node-express-api": [
+    {
+      "question": "What HTTP method retrieves data?",
+      "options": ["GET", "POST", "SEND"],
+      "answer": 0
+    },
+    {
+      "question": "What module is used for backend routing?",
+      "options": ["React", "Express", "Mongo"],
+      "answer": 1
+    }
+  ]
+}
