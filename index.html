@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Copilot Learn: Full Stack Playground</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Copilot Learn</h1>
+      <ul>
+        <li><a href="#examples">Examples</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#login">Login</a></li>
+      </ul>
+    </nav>
+    <section class="hero">
+      <h2>Learn Full Stack the Smart Way</h2>
+      <p>Explore real projects, APIs, and interactive examples built on modern tech.</p>
+      <a href="#examples" class="cta-button">Jump into Dev Examples</a>
+    </section>
+  </header>
+
+  <main>
+    <section id="examples">
+      <h3>Live Full Stack Examples</h3>
+      <div class="example-card">
+        <h4>To-Do App with Express & MongoDB</h4>
+        <p>User auth, backend API, and MongoDB persistence.</p>
+        <pre><code>app.post('/tasks', (req, res) => {
+  // Save task to database
+});</code></pre>
+      </div>
+    </section>
+
+    <section id="courses">
+      <h3>Courses & Paths</h3>
+      <div class="course-level">
+        <h4><a href="lessons.html?level=beginner">Beginner</a></h4>
+        <p>HTML/CSS, JavaScript Fundamentals, REST APIs</p>
+      </div>
+      <div class="course-level">
+        <h4><a href="lessons.html?level=intermediate">Intermediate</a></h4>
+        <p>Node.js, Express, Firebase, Deployment</p>
+      </div>
+      <div class="course-level">
+        <h4><a href="lessons.html?level=advanced">Advanced / Pro</a></h4>
+        <p>OAuth, CI/CD, GraphQL, WebSockets</p>
+      </div>
+    </section>
+
+    <section id="features">
+      <h3>Platform Features</h3>
+      <ul>
+        <li>🔥 Live API explorer powered by Firebase</li>
+        <li>🧠 Progress tracker & dev dashboard</li>
+        <li>🗂️ Glossary popups for key terms</li>
+        <li>🔗 External resource integration</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h3>About This Platform</h3>
+      <p>Built with modern stacks and developer-first design.</p>
+      <p>Hosted via Firebase at <a href="https://learn-with-copilot-api.firebaseapp.com">learn-with-copilot-api.firebaseapp.com</a></p>
+    </section>
+
+    <section id="login">
+      <h3>Login / Sign Up</h3>
+      <p>Log in to save progress, access content, and use your dashboard.</p>
+      <!-- Firebase UI injected via script.js -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Copilot Learn 2025 — Learn Full Stack, Build the Future</p>
+  </footer>
+  <script type="module" src="script.js"></script>
+</body>
+</html>

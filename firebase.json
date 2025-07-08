@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      { "source": "/lesson.html", "destination": "/lesson.html" },
+      { "source": "/dashboard.html", "destination": "/dashboard.html" },
+      { "source": "/lessons.html", "destination": "/lessons.html" }
+    ]
+  }
+}

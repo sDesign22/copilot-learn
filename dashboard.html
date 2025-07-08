@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>📊 Your Dashboard</h1>
+    <p id="user-info">Checking auth...</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Your Progress</h2>
+      <ul id="progress-list"></ul>
+    </section>
+
+    <section>
+      <h2>API Sandbox</h2>
+      <textarea id="api-input" placeholder='Enter JSON or query'></textarea>
+      <button id="api-test">Test Request</button>
+      <pre id="api-result"></pre>
+    </section>
+
+    <section>
+      <h2>Last Viewed Lesson</h2>
+      <p id="resume-lesson"></p>
+    </section>
+  </main>
+
+  <script type="module" src="dashboard.js"></script>
+</body>
+</html>
