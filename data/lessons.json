@@ -1,0 +1,17 @@
+{
+  "html-css-basics": {
+    "title": "HTML & CSS Basics",
+    "summary": "Structure and style pages using HTML5 and CSS3.",
+    "content": "<p>Learn how to use <strong>HTML</strong> to structure content and <strong>CSS</strong> to style it. These are core front-end technologies.</p><pre><code>&lt;h1&gt;Hello World&lt;/h1&gt;</code></pre><pre><code>h1 { color: blue; }</code></pre>"
+  },
+  "js-functions": {
+    "title": "JavaScript Functions",
+    "summary": "Use reusable logic blocks to write efficient code.",
+    "content": "<p><strong>Functions</strong> are reusable blocks of logic. They allow you to break code into components.</p><pre><code>function greet(name) {\n  return \"Hello \" + name;\n}</code></pre>"
+  },
+  "node-express-api": {
+    "title": "Node.js & Express",
+    "summary": "Build a backend using REST endpoints and middleware.",
+    "content": "<p><strong>Express</strong> simplifies backend API creation. It handles routing and middleware logic.</p><pre><code>app.get('/hello', (req, res) => {\n  res.send('Hello World');\n});</code></pre>"
+  }
+}
