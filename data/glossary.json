@@ -1,0 +1,9 @@
+{
+  "html": "HyperText Markup Language, used to define content structure.",
+  "css": "Cascading Style Sheets, controls visual presentation of elements.",
+  "function": "Reusable block of code that performs a specific task.",
+  "express": "Node.js framework for building web applications and APIs.",
+  "middleware": "Functions in Express that handle requests before response.",
+  "routing": "Determining how server responds to client request paths.",
+  "api": "Application Programming Interface — a way to communicate between systems."
+}
